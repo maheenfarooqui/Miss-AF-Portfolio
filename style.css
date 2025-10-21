@@ -524,27 +524,26 @@ nav ul li a {
   margin-right: 0px;
 }
 .heroSection .heroContent h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 20px;
-  margin-left: 0px;
+  margin-left: 30px;
 }
 .heroSection .heroContent h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 0px;
-  margin-left: 0px;
+  margin-left: 30px;
 }
 .heroSection .heroContent h2 i {
   margin-left: 0px;
 }
 .heroSection .heroContent h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 .heading-line::before {
   width: 100px;
-  margin-left: -34px;
 }
 .heroSection .heroContent button {
-  margin-left: 0px;
+  margin-left: 30px;
   
 }
 .about {
