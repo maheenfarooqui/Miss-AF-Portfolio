@@ -569,6 +569,11 @@ footer i:hover {
     flex-direction: column;
     gap: 20px;
   }
+  .buttons button {
+  padding: 10px 20px;;
+  font-size: 16px;
+  
+}
   .myprojectText p {
     width: 300px;
   }
