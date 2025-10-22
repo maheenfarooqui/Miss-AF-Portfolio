@@ -486,7 +486,7 @@ footer i:hover {
     padding: 0px;
   }
   .logo {
-    width: 80px;
+    width: 70px;
   }
   .name {
     opacity: 1;
@@ -508,9 +508,10 @@ footer i:hover {
   .heroSection .heroimg img {
     margin-right: 0px;
     margin-left: 20px;
+    width: 300px;
   }
   .heroSection .heroContent h1 {
-    font-size: 49px;
+    font-size: 45px;
     margin-bottom: 20px;
     margin-left: 20px;
   }
@@ -559,7 +560,7 @@ footer i:hover {
     height: 170px;
   }
   .myprojectimg img {
-    width: 400px;
+    width:350px;
     border: 1px solid #ccc;
   }
 
@@ -569,7 +570,7 @@ footer i:hover {
     gap: 20px;
   }
   .myprojectText p {
-    width: 430px;
+    width: 350px;
   }
   .contact {
     flex-direction: column;
@@ -584,7 +585,7 @@ footer i:hover {
   form {
     margin-right: 0px;
     margin-left: 20px;
-    width: 400px;
+    width: 350px;
     margin-top: 50px;
   }
   footer {
