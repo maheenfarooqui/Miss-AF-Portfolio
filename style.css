@@ -560,7 +560,7 @@ footer i:hover {
     height: 170px;
   }
   .myprojectimg img {
-    width:350px;
+    width:300px;
     border: 1px solid #ccc;
   }
 
@@ -570,7 +570,7 @@ footer i:hover {
     gap: 20px;
   }
   .myprojectText p {
-    width: 350px;
+    width: 300px;
   }
   .contact {
     flex-direction: column;
@@ -585,7 +585,7 @@ footer i:hover {
   form {
     margin-right: 0px;
     margin-left: 20px;
-    width: 350px;
+    width: 300px;
     margin-top: 50px;
   }
   footer {
