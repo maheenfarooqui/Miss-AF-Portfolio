@@ -556,8 +556,8 @@ footer i:hover {
     position: relative;
   }
   .myprojectimg::before {
-    width: 370px;
-    height: 170px;
+    width: 290px;
+    height: 100px;
   }
   .myprojectimg img {
     width:300px;
