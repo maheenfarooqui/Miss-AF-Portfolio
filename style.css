@@ -73,7 +73,6 @@ nav ul li a:hover {
   height: auto;
   margin-right: 100px;
   border-radius: 50%;
-
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.05),
     0 0 35px rgba(255, 112, 92, 0.5);
 }
@@ -338,7 +337,7 @@ nav ul li a:hover {
 .myprojectimg img {
   width: 500px;
   height: auto;
-   border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 .myprojectText {
@@ -478,6 +477,7 @@ footer i {
 footer i:hover {
   color: #ff705c;
 }
+
 @media all and (max-width: 500px) {
   nav {
     flex-direction: column;
@@ -550,7 +550,7 @@ footer i:hover {
     gap: 50px;
   }
   .stat-box h2 {
-  font-size: 30px;
+    font-size: 30px;
   }
   .myprojectimg {
     padding-top: 10px;
@@ -563,7 +563,7 @@ footer i:hover {
     height: 140px;
   }
   .myprojectimg img {
-    width:300px;
+    width: 300px;
     border: 1px solid #ccc;
   }
 
@@ -576,7 +576,7 @@ footer i:hover {
   .myprojectText p {
     width: 300px;
   }
-  .buttons{
+  .buttons {
     display: flex;
     flex-direction: column;
     gap: 10px;
