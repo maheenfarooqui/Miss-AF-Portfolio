@@ -7,6 +7,7 @@
 body {
   background-color: #1d3347;
 }
+/* Header */
 nav {
   display: flex;
   justify-content: space-between;
@@ -60,6 +61,7 @@ nav ul li a:hover {
   opacity: 1;
   transform: translateX(0);
 }
+/* Hero Section */
 .heroSection {
   display: flex;
   justify-content: space-between;
@@ -140,12 +142,12 @@ nav ul li a:hover {
 .heroSection .heroContent .color:hover {
   background-color: #ff705c;
 }
+/* marquee Section */
 .services-marquee {
   overflow: hidden;
   white-space: nowrap;
   background-color: #17232d;
   padding: 15px 0;
-
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -162,7 +164,6 @@ nav ul li a:hover {
   font-weight: 500;
   color: gray;
 }
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -170,6 +171,11 @@ nav ul li a:hover {
   100% {
     transform: translateX(-50%);
   }
+}
+/* About Section */
+.about-section {
+  background-color: #17232d;
+  padding: 50px 0;
 }
 .about {
   padding: 90px 100px;
@@ -280,6 +286,7 @@ nav ul li a:hover {
   color: #ccc;
   letter-spacing: 0.5px;
 }
+/* Portfolio Section */
 .portfolio {
   padding: 50px 100px;
   color: white;
@@ -389,7 +396,7 @@ nav ul li a:hover {
   color: white;
   text-decoration: none;
 }
-
+/* Contact Section */
 .contact {
   display: flex;
   justify-content: space-between;
@@ -455,6 +462,7 @@ form button:hover {
   border: 1px solid #ff705c;
   transform: scale(1.05);
 }
+/* Footer Section */
 footer {
   background-color: #18242e;
   display: flex;
@@ -477,8 +485,9 @@ footer i {
 footer i:hover {
   color: #ff705c;
 }
-
+/* Media Queries */
 @media all and (max-width: 500px) {
+  /* Header */
   nav {
     flex-direction: column;
     justify-content: center;
@@ -499,6 +508,7 @@ footer i:hover {
   nav ul li a {
     font-size: 16px;
   }
+  /* Hero */
   .heroSection {
     padding: 50px 0px;
     flex-direction: column;
@@ -529,6 +539,7 @@ footer i:hover {
   .heroSection .heroContent button {
     margin-left: 20px;
   }
+  /* About */
   .about {
     padding: 90px 20px;
     flex-direction: column;
@@ -539,6 +550,8 @@ footer i:hover {
   .about-state {
     gap: 40px;
   }
+  /* Portfolio */
+  
   .portfolio {
     padding: 50px 20px;
   }
@@ -552,6 +565,7 @@ footer i:hover {
   .stat-box h2 {
     font-size: 30px;
   }
+ 
   .myprojectimg {
     padding-top: 10px;
     padding-right: 10px;
@@ -581,6 +595,7 @@ footer i:hover {
     flex-direction: column;
     gap: 10px;
   }
+  /*  */
   .contact {
     flex-direction: column;
     justify-content: start;
@@ -597,6 +612,7 @@ footer i:hover {
     width: 300px;
     margin-top: 50px;
   }
+  /* Footer */
   footer {
     padding: 10px 0;
   }
